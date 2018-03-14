@@ -1,0 +1,68 @@
+@font-face{
+	font-family: kalpurushimport;
+	src:url(kalpurush.ttf);	
+}
+body{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: black;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container-fluid{
+	background-image: url("Background.png");
+	background-repeat: no-repeat;
+	width: 1024px;
+	height: 600px;
+}
+.First-img-div{
+	height: 190px;
+	width: 165px;
+	margin-top: 70%;
+	background-color: white;
+}
+.img-inner-col-first{
+	height: 135px;
+    width: 135px;
+    margin-top: 16%;
+}
+.img-inner-col-second{
+	height: 120px;
+    width: 120px;
+    margin: 15% 12%;
+    padding-top: 15%;
+}
+.Second-img-div{
+	height: 140px;
+	width: 165px;
+	background-color: white;
+}
+.img-size{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.form-control{
+	background-color: transparent!important;
+	border: 2px solid white;
+}
+.custom-form{
+	border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-radius: 0;
+
+}
+.font-color{
+	color: white;
+	text-align: right;
+}
+.col-form-label{
+/*	padding-top: 2%!important;*/
+	padding-bottom: 0!important;
+}
+.form-control:focus{
+	border-color: #3cf575!important;
+}
+.form-group {
+    margin-bottom: .8rem!important;
+}
